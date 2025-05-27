@@ -8,35 +8,37 @@
 </head>
 <body>
 
+    <h1>Calculate Here!</h1>
+
     <div class="container">
 
-        <input type="text" id="display" disabled value="rohit">
+        <input type="text" id="display" disabled >
 
         <div class="button-container">
 
-            <button onclick="clearDisplay()">AC</button>
-            <button onclick="addToDisplay()">DEL</button>
-            <button onclick="addToDisplay()">%</button>
-            <button onclick="addToDisplay()">/</button>
+            <button class="clearbutton" onclick="clearDisplay()">AC</button>
+            <button class="clearbutton" onclick="clearOneItem()">DEL</button>
+            <button class="operator-button" onclick="addToDisplay()">%</button>
+            <button class="operator-button" onclick="addToDisplay()">/</button>
 
-            <button onclick="addToDisplay()">7</button>
-            <button onclick="addToDisplay()">8</button>
-            <button onclick="addToDisplay()">9</button>
-            <button onclick="addToDisplay()">X</button>
+            <button class="number-button" onclick="addToDisplay()">7</button>
+            <button class="number-button" onclick="addToDisplay()">8</button>
+            <button class="number-button" onclick="addToDisplay()">9</button>
+            <button class="number-button" class="operator-button" onclick="addToDisplay()">X</button>
 
-            <button onclick="addToDisplay()">4</button>
-            <button onclick="addToDisplay()">5</button>
-            <button onclick="addToDisplay()">6</button>
-            <button onclick="addToDisplay()">-</button>
+            <button class="number-button" onclick="addToDisplay()">4</button>
+            <button class="number-button" onclick="addToDisplay()">5</button>
+            <button class="number-button" onclick="addToDisplay()">6</button>
+            <button class="operator-button" onclick="addToDisplay()">-</button>
 
-            <button onclick="addToDisplay()">1</button>
-            <button onclick="addToDisplay()">2</button>
-            <button onclick="addToDisplay()">3</button>
-            <button onclick="addToDisplay()">+</button>
+            <button class="number-button" onclick="addToDisplay()">1</button>
+            <button class="number-button" onclick="addToDisplay()">2</button>
+            <button class="number-button" onclick="addToDisplay()">3</button>
+            <button class="operator-button" onclick="addToDisplay()">+</button>
 
-            <button onclick="addToDisplay()">0</button>
-            <button onclick="addToDisplay()">.</button>
-            <button onclick="addToDisplay()">=</button>
+            <button class="number-button" onclick="addToDisplay()">0</button>
+            <button class="dot-button" onclick="addToDisplay()">.</button>
+            <button class="calculate-button" onclick="calculate()">=</button>
 
         </div>
 
