@@ -1,2 +1,2 @@
 # DIGIBHEM
-This repo has my intership project 
+This repo contains my internship project...
